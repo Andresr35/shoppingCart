@@ -1,0 +1,21 @@
+nav {
+  font-family: Bebas;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  align-items: center;
+}
+nav h1 {
+  text-shadow: 10px 5px 20px grey;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  font-size: 16pt;
+}
