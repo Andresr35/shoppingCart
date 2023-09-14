@@ -1,5 +1,15 @@
+import Nav from "../components/Nav";
+import ProductCategoryList from "../components/ProductCategoryList";
+
 const Shopping = () => {
-  return <div></div>;
+  return (
+    <>
+      <Nav />
+      <main>
+        <ProductCategoryList />
+      </main>
+    </>
+  );
 };
 
 export default Shopping;

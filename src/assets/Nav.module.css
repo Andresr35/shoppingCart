@@ -1,14 +1,17 @@
 nav {
   font-family: Bebas;
-  position: absolute;
-  top: 0;
-  left: 0;
+
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  min-width: 90vw;
   padding: 0 5vw;
   box-sizing: border-box;
   align-items: center;
+  background: linear-gradient(
+    rgba(128, 128, 128, 0.164),
+    rgba(255, 255, 255, 0.096),
+    rgba(128, 128, 128, 0.007)
+  );
 }
 nav h1 {
   text-shadow: 10px 5px 20px grey;
