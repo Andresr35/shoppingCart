@@ -1,0 +1,16 @@
+.itemCard {
+  box-sizing: border-box;
+  width: 300px;
+  display: inline;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+}
+.itemCard img {
+  width: 60%;
+  height: auto;
+}
+.itemCard h4 {
+  width: 80%;
+  margin: 10px auto;
+}

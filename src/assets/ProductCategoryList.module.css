@@ -1,3 +1,15 @@
-.products {
+.categories {
+  background-color: rgba(128, 128, 128, 0.158);
+  padding: 0 5%;
+  border-radius: 30px;
+}
+.category {
+  background-color: rgba(128, 128, 128, 0.26);
+  border-radius: 50px;
+  width: 100%;
+  justify-content: space-between;
   display: grid;
+  grid: auto/auto-flow max-content;
+  gap: 10px;
+  overflow-x: auto;
 }
