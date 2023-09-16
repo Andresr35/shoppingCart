@@ -1,8 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Shopping Cart Odin Project
 
-Currently, two official plugins are available:
+[Link to Project](https://www.theodinproject.com/lessons/node-path-react-new-shopping-cart)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+This project is meant to show off the usage of states being passed around child componenets and the use of useEffect hooks.
+
+It is a project that creates a simple shopping website that grabs product information from the [Fake Store Api](https://fakestoreapi.com/docs).
+
+The website allows you to add different products to your cart with the use of states around the different components.
