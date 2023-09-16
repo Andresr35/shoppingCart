@@ -16,6 +16,13 @@ nav {
 nav h1 {
   text-shadow: 10px 5px 20px grey;
 }
+nav svg {
+  width: 30px;
+}
+nav li div {
+  display: inline;
+  vertical-align: middle;
+}
 ul {
   list-style-type: none;
   display: flex;

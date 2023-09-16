@@ -1,12 +1,14 @@
+import { useState } from "react";
 import Nav from "../components/Nav";
 import ProductCategoryList from "../components/ProductCategoryList";
 
 const Shopping = () => {
+  const [cart, setCart] = useState([]);
   return (
     <>
-      <Nav />
+      <Nav cart={cart} />
       <main>
-        <ProductCategoryList />
+        <ProductCategoryList cart={cart} setCart={setCart} />
       </main>
     </>
   );

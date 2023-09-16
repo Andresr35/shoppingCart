@@ -4,6 +4,7 @@
   border-radius: 30px;
 }
 .category {
+  padding: 20px;
   background-color: rgba(128, 128, 128, 0.26);
   border-radius: 50px;
   width: 100%;
@@ -12,4 +13,10 @@
   grid: auto/auto-flow max-content;
   gap: 10px;
   overflow-x: auto;
+}
+.categories h4 {
+  box-sizing: border-box;
+  font-weight: 800;
+  font-size: 24pt;
+  margin: 20px 0;
 }

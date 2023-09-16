@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import styles from "../assets/ProductCategoryList.module.css";
 import ItemCard from "./ItemCard";
 
-const ProductCategoryList = () => {
+const ProductCategoryList = ({ cart, setCart }) => {
   const [products, setProducts] = useState(null);
 
   useEffect(() => {
@@ -55,13 +56,22 @@ const ProductCategoryList = () => {
             <h4>{key}</h4>
             <div className={styles.category} key={key}>
               {products[key].map((product, index) => (
-                <ItemCard key={index} product={product} />
+                <ItemCard
+                  key={index}
+                  product={product}
+                  setCart={setCart}
+                  cart={cart}
+                />
               ))}
             </div>
           </div>
         ))}
     </div>
   );
+};
+ProductCategoryList.propTypes = {
+  cart: PropTypes.array.isRequired,
+  setCart: PropTypes.func.isRequired,
 };
 
 export default ProductCategoryList;
