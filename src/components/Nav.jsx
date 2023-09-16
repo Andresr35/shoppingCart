@@ -10,7 +10,7 @@ const Nav = ({ cart }) => {
     sum = 0;
   } else {
     console.log(cart);
-    cart.forEach((element) => {
+    cart?.forEach((element) => {
       sum += Number(element.quantity);
     });
   }
