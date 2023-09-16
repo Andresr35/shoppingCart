@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 const Nav = ({ cart }) => {
   let sum = 0;
 
-  if (cart.length === 0) {
+  if (cart?.length === 0) {
     sum = 0;
   } else {
     console.log(cart);
